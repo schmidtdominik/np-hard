@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="db513dc5-09dc-4b07-b3a7-ae2bad19fe6c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Zx3dFD0ef6TljuAWZo7cVq0MaK" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.solver">
+    <configuration name="solve_actual" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="coloring" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solve_actual.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="solver" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="coloring" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/solver.py" />
+      <option name="PARAMETERS" value="./data/gc_20_7" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="submit" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="coloring" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/submit.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.solver" />
+      <item itemvalue="Python.submit" />
+      <item itemvalue="Python.solve_actual" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.solver" />
+        <item itemvalue="Python.submit" />
+        <item itemvalue="Python.solve_actual" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="db513dc5-09dc-4b07-b3a7-ae2bad19fe6c" name="Default Changelist" comment="" />
+      <created>1585767002366</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1585767002366</updated>
+      <workItem from="1585767005763" duration="8071000" />
+      <workItem from="1585778503237" duration="20371000" />
+      <workItem from="1586378497457" duration="930000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="787" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585852114386">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="787" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585852114386" />
+    <state x="740" y="273" width="436" height="572" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog" timestamp="1585837710462">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="740" y="273" width="436" height="572" key="#com.jetbrains.python.refactoring.move.PyMoveModuleMembersDialog/0.27.1920.1053@0.27.1920.1053" timestamp="1585837710462" />
+    <state x="805" y="585" key="#xdebugger.evaluate" timestamp="1585779483351">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="805" y="585" key="#xdebugger.evaluate/0.27.1920.1053@0.27.1920.1053" timestamp="1585779483351" />
+    <state width="1874" height="319" key="GridCell.Tab.0.bottom" timestamp="1586379427533">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="319" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1586379427533" />
+    <state width="1874" height="319" key="GridCell.Tab.0.center" timestamp="1586379427533">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="319" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1586379427533" />
+    <state width="1874" height="319" key="GridCell.Tab.0.left" timestamp="1586379427533">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="319" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1586379427533" />
+    <state width="1874" height="319" key="GridCell.Tab.0.right" timestamp="1586379427533">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="319" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1586379427533" />
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1585858656889">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1585858656889" />
+    <state width="1874" height="340" key="GridCell.Tab.1.center" timestamp="1585858656888">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.center/0.27.1920.1053@0.27.1920.1053" timestamp="1585858656888" />
+    <state width="1874" height="340" key="GridCell.Tab.1.left" timestamp="1585858656887">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.left/0.27.1920.1053@0.27.1920.1053" timestamp="1585858656887" />
+    <state width="1874" height="340" key="GridCell.Tab.1.right" timestamp="1585858656888">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state width="1874" height="340" key="GridCell.Tab.1.right/0.27.1920.1053@0.27.1920.1053" timestamp="1585858656888" />
+    <state x="452" y="187" width="1016" height="743" key="SettingsEditor" timestamp="1585838027666">
+      <screen x="0" y="27" width="1920" height="1053" />
+    </state>
+    <state x="452" y="187" width="1016" height="743" key="SettingsEditor/0.27.1920.1053@0.27.1920.1053" timestamp="1585838027666" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/coloring$solve_actual.coverage" NAME="solve_actual Coverage Results" MODIFIED="1585772512826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/coloring$submit.coverage" NAME="submit Coverage Results" MODIFIED="1585854339694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/coloring$solver.coverage" NAME="solver Coverage Results" MODIFIED="1586379424128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+</project>
