@@ -1,0 +1,14 @@
+
+1. define neighborhood
+2. heuristics
+3. metaheuristics
+
+
+
+greedy NN (+greedy NN with metropolis h)
+2-opt based on pool
+3-opt based on pool
+tabu search with good abstraction
+
+# others
+use MST heuristic
