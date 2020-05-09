@@ -1,3 +1,9 @@
+import random
+import time
+
+
+import numpy as np
+
 def populate_nn_basic(global_pool, points, distance_matrix, timeout=1.0):
     print('NN POP')
     t0 = time.time()

@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db513dc5-09dc-4b07-b3a7-ae2bad19fe6c" name="Default Changelist" comment="" />
+    <list default="true" id="db513dc5-09dc-4b07-b3a7-ae2bad19fe6c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tsp/depr.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tsp/depr.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tsp/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tsp/graph.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tsp/pool.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tsp/pool.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tsp/solve_actual.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tsp/solve_actual.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tsp/solver.py" beforeDir="false" afterPath="$PROJECT_DIR$/../tsp/solver.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tsp/stats.pickle" beforeDir="false" afterPath="$PROJECT_DIR$/../tsp/stats.pickle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,10 +22,13 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Zx3dFD0ef6TljuAWZo7cVq0MaK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -119,11 +130,12 @@
       <workItem from="1585767005763" duration="8071000" />
       <workItem from="1585778503237" duration="20371000" />
       <workItem from="1586378497457" duration="930000" />
+      <workItem from="1588981921880" duration="1363000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="787" y="168" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1585852114386">
@@ -138,22 +150,22 @@
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
     <state x="805" y="585" key="#xdebugger.evaluate/0.27.1920.1053@0.27.1920.1053" timestamp="1585779483351" />
-    <state width="1874" height="319" key="GridCell.Tab.0.bottom" timestamp="1586379427533">
+    <state width="1874" height="319" key="GridCell.Tab.0.bottom" timestamp="1588986278823">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="319" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1586379427533" />
-    <state width="1874" height="319" key="GridCell.Tab.0.center" timestamp="1586379427533">
+    <state width="1874" height="319" key="GridCell.Tab.0.bottom/0.27.1920.1053@0.27.1920.1053" timestamp="1588986278823" />
+    <state width="1874" height="319" key="GridCell.Tab.0.center" timestamp="1588986278823">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="319" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1586379427533" />
-    <state width="1874" height="319" key="GridCell.Tab.0.left" timestamp="1586379427533">
+    <state width="1874" height="319" key="GridCell.Tab.0.center/0.27.1920.1053@0.27.1920.1053" timestamp="1588986278823" />
+    <state width="1874" height="319" key="GridCell.Tab.0.left" timestamp="1588986278823">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="319" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1586379427533" />
-    <state width="1874" height="319" key="GridCell.Tab.0.right" timestamp="1586379427533">
+    <state width="1874" height="319" key="GridCell.Tab.0.left/0.27.1920.1053@0.27.1920.1053" timestamp="1588986278823" />
+    <state width="1874" height="319" key="GridCell.Tab.0.right" timestamp="1588986278823">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
-    <state width="1874" height="319" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1586379427533" />
+    <state width="1874" height="319" key="GridCell.Tab.0.right/0.27.1920.1053@0.27.1920.1053" timestamp="1588986278823" />
     <state width="1874" height="340" key="GridCell.Tab.1.bottom" timestamp="1585858656889">
       <screen x="0" y="27" width="1920" height="1053" />
     </state>
@@ -189,6 +201,6 @@
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/coloring$solve_actual.coverage" NAME="solve_actual Coverage Results" MODIFIED="1585772512826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/coloring$submit.coverage" NAME="submit Coverage Results" MODIFIED="1585854339694" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/coloring$solver.coverage" NAME="solver Coverage Results" MODIFIED="1586379424128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/coloring$solver.coverage" NAME="solver Coverage Results" MODIFIED="1588981924676" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

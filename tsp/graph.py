@@ -1,3 +1,4 @@
+import random
 from typing import List
 
 import numpy as np
@@ -19,16 +20,22 @@ class Node:
             if self.graphref[indices[j]] is not self:
                 self.edges_to.append(self.graphref[indices[j]])
 
-    def nn_tour(self):
+    def nn_tour(self, randomized=False, rfactor=0.1):
         for n in self.graphref:
             n.marked = False
-        return self.nn_tour_rec()
+        return self.nn_tour_rec(randomized, rfactor)
 
-    def nn_tour_rec(self):
+    def nn_tour_rec(self, randomized, rfactor):
         self.marked = True
         for n in self.edges_to:
+            if randomized and random.random() < rfactor:
+                continue
             if not n.marked:
-                return [self.index] + n.nn_tour_rec()
+                return [self.index] + n.nn_tour_rec(randomized, rfactor)
+        if randomized:
+            for n in self.edges_to:
+                if not n.marked:
+                    return [self.index] + n.nn_tour_rec(randomized, rfactor)
         return [self.index]
 
     @property

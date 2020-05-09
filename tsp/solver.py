@@ -64,9 +64,8 @@ if __name__ == '__main__':
     files.sort()
     files.sort(key=len)
 
-    below4k_set = files[:66]
     coursera_set = {'tsp_51_1', 'tsp_100_3', 'tsp_200_2', 'tsp_574_1', 'tsp_1889_1', 'tsp_33810_1'}
-    other_set = {'tsp_144_1', 'tsp_226_1', 'tsp_493_1', 'tsp_1173_1', 'tsp_1655_1'} # tsp_5_1
+    other_set = set()#{'tsp_144_1', 'tsp_226_1', 'tsp_493_1', 'tsp_1173_1', 'tsp_1655_1'} # tsp_5_1
     results = {}
 
     todo = list(other_set | coursera_set)
@@ -80,7 +79,7 @@ if __name__ == '__main__':
         with open('stats.pickle', 'rb') as f:
             stats = pickle.load(f)
 
-    for file in todo:
+    for file in ['tsp_33810_1']:#todo:
         print(color_back(file, 215, 200, 255))
         with open('data/' + file, 'r') as f:
             input_data = f.read()
@@ -98,8 +97,8 @@ if __name__ == '__main__':
         with open('stats.pickle', 'wb+') as f:
             pickle.dump(stats, f)
 
-    for f in todo:
+    for f in ['tsp_33810_1']:#todo:
         print(color_back(f.upper() + '\t' + str(results[f]/reference_results[f]), 215, 255, 255))
-    print(results)
+    print(sum(v for k, v in results.items() if k != 'tsp_33810_1')/sum(v for k, v in reference_results.items() if k != 'tsp_33810_1'), results)
 
 
