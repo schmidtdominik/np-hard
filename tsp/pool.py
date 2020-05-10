@@ -17,6 +17,10 @@ class Pool:
     def get_random(self):
         return random.choice(self.heap)[1].copy()
 
+    def get_random_alt(self):
+        cost, sol = random.choice(self.heap)
+        return -cost, sol.copy()
+
     def push(self, solution, value):
 
         self.t = max(1, self.t-0.01)
@@ -32,7 +36,7 @@ class Pool:
                 print(color_back('*', 190, 250, 190), end='')
             self.best = min(self.best, value)
             heapq.heapreplace(self.heap, (-value, solution))
-        elif random.random() < math.exp(-abs(value - self.heap[0][0]) / self.t):
+        elif False and random.random() < math.exp(-abs(value - self.heap[0][0]) / self.t):
             if value < self.best:
                 #print(color_back('UPGRADE: ' + str(value), 190, 250, 190))
                 print(color_back('*', 190, 250, 190), end='')
